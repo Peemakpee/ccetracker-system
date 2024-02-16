@@ -8,6 +8,7 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 
+
 class User extends Authenticatable
 {
     use HasApiTokens, HasFactory, Notifiable;
@@ -20,7 +21,14 @@ class User extends Authenticatable
     protected $fillable = [
         'name',
         'email',
+        // 'signature_url',
+        'program',
         'password',
+        'is_admin',
+        'is_dean',
+        'is_aa',
+        'status'
+      
     ];
 
     /**
@@ -42,4 +50,9 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
     ];
+
+    // public function routeNotificationForMail($notification)
+    // {
+    //     return config('app.TEST_EMAIL');
+    // }
 }

@@ -6,8 +6,33 @@
         "build": "vite build"
     },
     "devDependencies": {
+        "@vitejs/plugin-vue": "^4.3.3",
+        "autoprefixer": "^10.4.15",
         "axios": "^1.1.2",
         "laravel-vite-plugin": "^0.8.0",
+        "postcss": "^8.4.28",
+        "tailwindcss": "^3.3.3",
         "vite": "^4.0.0"
+    },
+    "dependencies": {
+        "@fortawesome/vue-fontawesome": "^3.0.3",
+        "@fullcalendar/daygrid": "^6.1.9",
+        "@fullcalendar/vue": "^6.1.9",
+        "@popperjs/core": "^2.11.8",
+        "admin-lte": "3.2",
+        "bootstrap": "^4.6.2",
+        "chart.js": "^4.4.0",
+        "date-fns": "^2.30.0",
+        "firebase": "^10.3.0",
+        "jspdf": "^2.5.1",
+        "jspdf-autotable": "^3.7.1",
+        "pdf-lib": "^1.17.1",
+        "pdfjs-dist": "^3.10.111",
+        "v-calendar": "^3.0.3",
+        "vue": "^3.3.4",
+        "vue-datepicker": "^1.3.0",
+        "vue-router": "^4.2.4",
+        "vuelidate": "^0.7.7",
+        "vuetify": "^3.4.4"
     }
 }
